@@ -1,0 +1,242 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Bootstrap Icon Local -->
+    <link rel="stylesheet" href="./fonts/bootstrap-icons.css" />
+    <!-- Stylesheets CSS -->
+    <link rel="stylesheet" href="./css/style.css" />
+    <title>Admin Panel | Farkhodoff_me</title>
+  </head>
+  <body>
+    <div class="container">
+      <!-- Navigation -->
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><img src="./fonts/smartwatch.svg" alt=""
+              /></span>
+              <span class="title">Brand Name</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><img src="./fonts/house.svg" alt="" /></span>
+              <span class="title">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><img src="./fonts/alarm.svg" alt="" /></span>
+              <span class="title">Customers</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><img src="./fonts/chat.svg" alt="" /></span>
+              <span class="title">Messages</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><img src="./fonts/question-lg.svg" alt=""
+              /></span>
+              <span class="title">Help</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><img src="./fonts/shield-check.svg" alt=""
+              /></span>
+              <span class="title">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"><img src="./fonts/lock.svg" alt="" /></span>
+              <span class="title">Password</span>
+            </a>
+          </li>
+          <li>
+            <a href="#">
+              <span class="icon"
+                ><img src="./fonts/backspace.svg" alt=""
+              /></span>
+              <span class="title">Sign Out</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- /Navigation -->
+
+      <!-- Main -->
+      <div class="main">
+        <div class="topbar">
+          <div class="toggle">
+            <img src="./fonts/menu-button-wide-fill.svg" alt="" />
+          </div>
+          <!-- Search -->
+          <div class="search">
+            <label for="search">
+              <input type="text" placeholder="Search here" />
+              <img src="./fonts/search.svg" alt="" />
+            </label>
+          </div>
+          <!-- User Photo -->
+          <div class="user">
+            <img src="./images/Screenshot_1.png" alt="" />
+          </div>
+        </div>
+
+        <!-- Сards -->
+        <div class="card-box">
+          <div class="card">
+            <div>
+              <div class="numbers">1.504</div>
+              <div class="cardName">Daily Views</div>
+            </div>
+            <div class="iconBx">
+              <img src="./fonts/eye.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="numbers">80</div>
+              <div class="cardName">Sales</div>
+            </div>
+            <div class="iconBx">
+              <img src="./fonts/cart-dash.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="numbers">284</div>
+              <div class="cardName">Comments</div>
+            </div>
+            <div class="iconBx">
+              <img src="./fonts/chat-left.svg" alt="" />
+            </div>
+          </div>
+
+          <div class="card">
+            <div>
+              <div class="numbers">$7,842</div>
+              <div class="cardName">Earning</div>
+            </div>
+            <div class="iconBx">
+              <img src="./fonts/megaphone.svg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <!-- Data List -->
+        <div class="details">
+          <div class="recentOrders">
+            <div class="cardHeader">
+              <h2>Recent Orders</h2>
+              <a href="#" class="btn">View All</a>
+            </div>
+            <table>
+              <thead>
+                <tr>
+                    <td>Name</td>
+                    <td>Price</td>
+                    <td>Payment</td>
+                    <td>Status</td>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Star Refrigerator</td>
+                  <td>$1200</td>
+                  <td>Paid</td>
+                  <td><span class="status delivered">Delivered</span></td>
+                </tr>
+
+                <tr>
+                  <td>Denim Shirts</td>
+                  <td>$110</td>
+                  <td>Due</td>
+                  <td><span class="status inprogress">In Progress</span></td>
+                </tr>
+
+                <tr>
+                  <td>Casual Shoes</td>
+                  <td>$575</td>
+                  <td>Paid</td>
+                  <td><span class="status pending">Pending</span></td>
+                </tr>
+                <tr>
+                  <td>Star Refrigerator</td>
+                  <td>$1200</td>
+                  <td>Paid</td>
+                  <td><span class="status return">Return</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+
+          <!-- New Customers -->
+          <div class="recentCustomers">
+            <div class="cardHeader">
+                <h2>Recent Customers</h2>
+            </div>
+            <table>
+                <tr>
+                    <td><div class="imgBx"><img src="./images/img1.jpg" alt=""></div></td>
+                    <td><h4>Asadbek<br><span>Namangan</span></h4></td>
+                </tr>
+
+                <tr>
+                    <td><div class="imgBx"><img src="./images/img2.jpg" alt=""></div></td>
+                    <td><h4>Jonibek<br><span>Farg'ona</span></h4></td>
+                </tr>
+
+                <tr>
+                    <td><div class="imgBx"><img src="./images/img3.jpg" alt=""></div></td>
+                    <td><h4>Malika<br><span>Andijon</span></h4></td>
+                </tr>
+
+                <tr>
+                    <td><div class="imgBx"><img src="./images/img4.jpg" alt=""></div></td>
+                    <td><h4>Maysara<br><span>Buxoro</span></h4></td>
+                </tr>
+                <tr>
+                    <td><div class="imgBx"><img src="./images/img5.jpg" alt=""></div></td>
+                    <td><h4>Samandar<br><span>Qashqadaryo</span></h4></td>
+                </tr>
+
+                <tr>
+                    <td><div class="imgBx"><img src="./images/img6.jpg" alt=""></div></td>
+                    <td><h4>Laziz<br><span>Qoraqalpog'iston</span></h4></td>
+                </tr>
+
+                <tr>
+                    <td><div class="imgBx"><img src="./images/img7.jpg" alt=""></div></td>
+                    <td><h4>Diana<br><span>Toshkent</span></h4></td>
+                </tr>
+
+                <tr>
+                    <td><div class="imgBx"><img src="./images/img9.jpg" alt=""></div></td>
+                    <td><h4>Jasmin<br><span>Jizzax</span></h4></td>
+                </tr>
+
+            </table>
+          </div>
+        </div>
+      </div>
+      <!-- /Main -->
+    </div>
+
+    <script src="./fonts/bootstrap-icons.json"></script>
+    <script src="./JavaScript/script.js"></script>
+  </body>
+</html>
